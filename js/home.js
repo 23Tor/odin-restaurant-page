@@ -13,11 +13,6 @@ function loadHome(loadMenuPage, loadContactPage) {
     description.textContent = 'We serve the best food in town. Come and taste the difference.';
     content.appendChild(description);
 
-    const image = document.createElement('img');
-    image.src = 'dist/img/main.jpg';
-    image.alt = 'Restaurant Image';
-    content.appendChild(image);
-
     const menuButton = document.createElement('button');
     menuButton.textContent = 'Menu';
     menuButton.addEventListener('click', () => {
